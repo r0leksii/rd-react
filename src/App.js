@@ -2,7 +2,8 @@ import './App.css'
 import photo from './img/photo_oleksii_800.webp'
 import { Image } from './components/Image'
 import { Contact } from './components/Contact'
-import { Experience } from './components/Experience'
+import Experiences from './components/Experiences'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Contact />
       </div>
 
-      <div>
-        <Experience />
+      <div className="right-block">
+        <Counter />
+        <Experiences />
       </div>
     </div>
   )

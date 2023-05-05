@@ -12,11 +12,7 @@ export const Contact = () => {
       </p>
       <h3>Linkedin</h3>
       <p>
-        <a
-          href="https://www.linkedin.com/in/rozhkoaleks/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/rozhkoaleks/" rel="noopener noreferrer" target="_blank">
           @rozhkoaleks
         </a>
       </p>
