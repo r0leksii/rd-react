@@ -4,6 +4,7 @@ import { Image } from './components/Image'
 import { Contact } from './components/Contact'
 import Experiences from './components/Experiences'
 import Counter from './components/Counter'
+import Mygithub from './components/Mygithub'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="right-block">
         <Counter />
         <Experiences />
+        <Mygithub />
       </div>
     </div>
   )

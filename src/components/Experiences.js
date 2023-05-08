@@ -42,18 +42,6 @@ const Experiences = () => {
 
   return (
     <>
-      <div className="experience">
-        <h2>Work Experience</h2>
-
-        {listData.map((item, index) => (
-          <Experience key={index} {...item} />
-        ))}
-
-        {experienceData.map((item, index) => (
-          <Experience key={index} {...item} />
-        ))}
-      </div>
-
       <form className="formExpierence" onSubmit={handleSubmit}>
         <div className="formItem">
           <label htmlFor="title">Job title:</label>
@@ -79,6 +67,18 @@ const Experiences = () => {
           <button type="submit">Submit</button>
         </div>
       </form>
+
+      <div className="experience">
+        <h2>Work Experience</h2>
+
+        {listData.map((item, index) => (
+          <Experience key={index} {...item} />
+        ))}
+
+        {experienceData.map((item, index) => (
+          <Experience key={index} {...item} />
+        ))}
+      </div>
     </>
   )
 }
